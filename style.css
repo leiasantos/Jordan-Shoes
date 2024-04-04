@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.desconto {
+    background: #18151b;
+    height: 40px;
+    color: #FCF7FF;
+    text-align: center;
+}
+
+.titulo {
+    background: #FCF7FF;
+    height: 40px;
+    text-align: center;
+
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+nav {
+    background-image: url('./img/parte1.png');
+    height: 378px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+nav h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+nav p {
+    font-size: 24px;
+    line-height: 160%;
+    color: #fff;
+}
+
+.destaque {
+    text-align: center;
+    padding: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h4 {
+
+    line-height: 24px;
+    color: #ADC5CF;
+
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+    gap: 20px;
+    width: 90%;
+   
+
+
+
+
+
+}
+
+.bloco {
+    background: #ADC5CF;
+    height: 280px;
+    padding: 50px;
+    display: flex;
+    margin: auto;
+
+}
